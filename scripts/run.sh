@@ -14,7 +14,7 @@ fi
 
 mavenpath=`which maven`
 
-if [ -z != mavenpath ]
+if [ -z != $mavenpath ]
 	then
 		echo "maven already installed"
 	else
